@@ -34,6 +34,7 @@ Using knowledge of Python and unsupervised machine learning to predict if crypto
 
 
 * Use the elbow method to find the best value for k completing the following steps:
+
         * Create a list with the number of k values from 1 to 11
         * Create an empty list to store the inertia values.
         * Create a for loop to compute the inertia with each possible value of k.
@@ -49,6 +50,7 @@ Using knowledge of Python and unsupervised machine learning to predict if crypto
 
 
 * Use the following steps to cluster the cryptocurrencies for the best value for k on the original scaled data:
+
         * Initialize the K-means model with the best value for k.
         * Fit the K-means model using the original scaled DataFrame.
         * Predict the clusters to group the cryptocurrencies using the original scaled DataFrame.
@@ -73,6 +75,7 @@ Using knowledge of Python and unsupervised machine learning to predict if crypto
 
 
 * Use the elbow method on the PCA data to find the best value for k completing the following steps:
+
         * Create a list with the number of k-values from 1 to 11
         * Create an empty list to store the inertia values.
         * Create a for loop to compute the inertia with each possible value of k.
@@ -89,6 +92,7 @@ Using knowledge of Python and unsupervised machine learning to predict if crypto
 
 
 * Use the following steps to cluster the cryptocurrencies for the best value for k on the PCA data:
+
         * Initialize the K-means model with the best value for k.
         * Fit the K-means model using the PCA data.
         * Predict the clusters to group the cryptocurrencies using the PCA data.
